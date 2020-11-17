@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Smouha International Hospital </title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+
+       
+    </head>
+    
+
+<body >
+    <div class="firstSection">
+         
+        <div class="topnav"  >
+            <a class="home" id="left" href="#home" target="_blank">Home</a>
+            <a href="#news" id="left">News</a>
+            <a href="#contact" id="left">Contact</a>
+            <a href="https://goo.gl/maps/4NaDsWAg4yA7A1Tk6" id="left" target="_blank">About</a>
+  
+            <img class = "right" src="img/1.png" href="#about" width= "78"  > 
+            
+        </div>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/Smouha.i.Hospital" target="_blank" class="fa fa-facebook"></a>
+            <a href="#"  class="fa fa-twitter" ></a>
+             
+         </div>
+    </div>
+
+   <div>
+    <h1>My First Google Map</h1>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    </div>
+
+    </body>
